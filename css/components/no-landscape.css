@@ -1,0 +1,32 @@
+#no-landscape {
+  display: none;
+}
+
+@media (orientation: landscape) {
+  #no-landscape {
+    position: absolute;
+    z-index: 90;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2b025f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+    font-weight:600;
+  }
+
+  body{
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  #no-landscape img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+  }
+}

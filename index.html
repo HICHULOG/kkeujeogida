@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kkeujeogida</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>15:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kkeujeogida</h1>
+      <p class="welcome-header__text">
+        If you have a Kkeujeogida Account, log in with your email or phone
+        number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+        required
+      />
+      <input
+        name="password"
+        type="password"
+        placeholder="Password"
+        minlength="8"
+        required
+      />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="#">Find Kkeujeogida Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+      <img src="image/bigscreen.gif" alt="" />
+      <span>Your screen is too big.</span>
+    </div>
+
+    <div id="no-landscape">
+      <img src="image/portrait.gif" alt="" />
+      <span> Please change to portrait mode.</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/f1238131a9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

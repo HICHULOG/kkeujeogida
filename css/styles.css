@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-landscape.css";
+@import "components/no-mobile.css";
+
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+
+@font-face {
+  font-family: 'UhBeeZZIBA-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/UhBeeZZIBA-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+-webkit-scrollbar { display : none; }
+
+body {
+  color: #fffffe;
+  font-family: 'UhBeeZZIBA-Regular', 'Open Sans', sans-serif;
+  padding-top: 25px;
+  height: auto;
+  background-color: #393236;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+  margin-bottom: 100px;
+}
+
+.fa-music {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.fa-music:hover {
+  color: var(--purple);
+}
+

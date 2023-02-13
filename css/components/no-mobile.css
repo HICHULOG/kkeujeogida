@@ -1,0 +1,32 @@
+#no-mobile {
+  display: none;
+}
+
+@media screen and (min-width: 645px) {
+  #no-mobile {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+    background-color: #393236;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    top: 0;
+    font-weight:600;
+  }
+
+  body{
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  #no-mobile img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px
+  }
+}
