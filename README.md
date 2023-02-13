@@ -1,6 +1,6 @@
 # Kkeujeogida :pencil:
 
-Kkeujeogida is an element added to Kokoa clone coding. <br>
+Kkeujeogida is an addition of elements to Kokoa Clone Coding. <br>
 Added links and music element.<br>
 And i decorated with a characters i made.
 
